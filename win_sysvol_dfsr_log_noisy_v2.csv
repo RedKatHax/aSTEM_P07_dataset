@@ -1,0 +1,62 @@
+server,event_id,event_source,level,timestamp_utc,message,extra,event_type,severity,tag
+DC-B01,5014.0,System,Warning,2025-07-29 22:09:39.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 3}",,,
+,,,,2025-07-29 22:09:39.000000000,,,timeout,medium,
+DC-B01,2213.0,System,Warning,2025-07-29 22:10:26.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'healthy', 'partners': 2}",,,
+DC-B02,5014.0,System,Error,2025-07-29 22:12:10.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 3}",,,
+DC-B02,2213.0,System,Error,2025-07-29 22:12:13.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'wrap_detected', 'partners': 3}",,,
+DC-B02,4012.0,System,Warning,2025-07-29 22:18:46.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'backlog', 'partners': 2}",,,
+DC-B02,5014.0,System,Warning,2025-07-29 22:19:33.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 2}",,,
+DC-B01,2213.0,System,Warning,2025-07-29 22:21:36.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'backlog', 'partners': 2}",,,
+DC-B01,4012.0,System,Warning,2025-07-29 22:22:16.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 3}",,,
+DC-B02,5014.0,System,Warning,2025-07-29 22:22:35.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 1}",,,
+DC-B03,4012.0,System,Warning,2025-08-01 00:08:35.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 1}",,,benign_background
+DC-B03,4012.0,System,Warning,2025-08-01 12:08:35.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 1}",,,benign_background
+DC-B02,2213.0,System,Warning,2025-08-03 18:35:08.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'backlog', 'partners': 2}",,,
+DC-B02,4012.0,System,Warning,2025-08-03 18:37:50.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 1}",,,
+DC-B02,2213.0,System,Error,2025-08-03 18:42:01.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'backlog', 'partners': 2}",,,
+DC-B01,2213.0,System,Warning,2025-08-03 18:42:39.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'wrap_detected', 'partners': 1}",,,
+DC-B02,4012.0,System,Error,2025-08-03 18:44:21.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'wrap_detected', 'partners': 1}",,,
+DC-B01,4012.0,System,Error,2025-08-03 18:45:53.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 2}",,,
+DC-B01,4012.0,System,Warning,2025-08-03 18:45:54.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'backlog', 'partners': 3}",,,
+DC-B02,5014.0,System,Warning,2025-08-03 18:45:58.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 1}",,,
+DC-B01,5014.0,System,Error,2025-08-03 18:47:16.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 1}",,,
+DC-B01,5014.0,System,Warning,2025-08-06 12:47:47.666666666,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 1}",,,decoy_cluster_no_rf
+DC-B01,5014.0,System,Warning,2025-08-06 12:47:58.666666666,DFSR: Replication group is no longer available,"{'journal_state': 'healthy', 'partners': 2}",,,decoy_cluster_no_rf
+DC-B01,5014.0,System,Warning,2025-08-06 12:48:54.666666666,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 2}",,,decoy_cluster_no_rf
+DC-B01,2213.0,System,Warning,2025-08-06 12:52:18.666666666,DFSR: Replication service stopped due to journal wrap/backlog,"{'journal_state': 'backlog', 'partners': 2}",,,decoy_cluster_no_rf
+DC-B01,4012.0,System,Error,2025-08-06 12:53:59.666666666,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 3}",,,decoy_cluster_no_rf
+DC-B01,4012.0,System,Error,2025-08-06 12:54:16.666666666,Netlogon: The domain controller is not advertising,"{'journal_state': 'backlog', 'partners': 3}",,,decoy_cluster_no_rf
+DC-B01,4012.0,System,Error,2025-08-06 12:55:03.666666666,Netlogon: The domain controller is not advertising,"{'journal_state': 'backlog', 'partners': 1}",,,decoy_cluster_no_rf
+DC-B03,4012.0,System,Warning,2025-08-08 00:08:35.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 1}",,,benign_background
+DC-B01,5014.0,System,Error,2025-08-08 01:14:13.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 1}",,,
+DC-B02,4012.0,System,Warning,2025-08-08 01:17:21.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 2}",,,
+DC-B02,2213.0,System,Warning,2025-08-08 01:17:57.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'healthy', 'partners': 1}",,,
+DC-B02,5014.0,System,Error,2025-08-08 01:21:41.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 2}",,,
+DC-B02,2213.0,System,Error,2025-08-08 01:22:05.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'wrap_detected', 'partners': 2}",,,
+DC-B01,5014.0,System,Warning,2025-08-08 01:22:27.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'healthy', 'partners': 2}",,,
+DC-B01,5014.0,System,Error,2025-08-08 01:29:02.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 3}",,,
+DC-B03,4012.0,System,Warning,2025-08-08 12:08:35.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 1}",,,benign_background
+DC-B02,1001.0,System,Information,2025-08-09 12:36:22.500000000,Planned maintenance window: cert rotation / DFSR backlog purge,"{'journal_state': 'maintenance', 'partners': 2}",,,maintenance_confounder
+DC-B02,1001.0,System,Information,2025-08-09 12:39:22.500000000,Planned maintenance window: cert rotation / DFSR backlog purge,"{'journal_state': 'maintenance', 'partners': 2}",,,maintenance_confounder
+DC-B02,1001.0,System,Information,2025-08-09 12:42:22.500000000,Planned maintenance window: cert rotation / DFSR backlog purge,"{'journal_state': 'maintenance', 'partners': 2}",,,maintenance_confounder
+DC-B02,1001.0,System,Information,2025-08-09 12:45:22.500000000,Planned maintenance window: cert rotation / DFSR backlog purge,"{'journal_state': 'maintenance', 'partners': 2}",,,maintenance_confounder
+DC-B02,1001.0,System,Information,2025-08-09 12:48:22.500000000,Planned maintenance window: cert rotation / DFSR backlog purge,"{'journal_state': 'maintenance', 'partners': 2}",,,maintenance_confounder
+DC-B01,2213.0,System,Error,2025-08-14 09:56:31.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'healthy', 'partners': 1}",,,
+DC-B01,5014.0,System,Warning,2025-08-14 09:57:38.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 1}",,,
+DC-B01,5014.0,System,Warning,2025-08-14 09:58:03.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'healthy', 'partners': 3}",,,
+DC-B02,5014.0,System,Warning,2025-08-14 10:00:29.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 2}",,,
+DC-B02,5014.0,System,Error,2025-08-14 10:00:45.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 2}",,,
+DC-B02,2213.0,System,Warning,2025-08-14 10:02:51.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'backlog', 'partners': 2}",,,
+DC-B02,4012.0,System,Error,2025-08-14 10:11:09.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'wrap_detected', 'partners': 3}",,,
+DC-B02,5014.0,System,Error,2025-08-14 10:12:36.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 2}",,,
+DC-B01,5014.0,System,Warning,2025-08-14 10:13:51.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 1}",,,
+DC-B03,4012.0,System,Warning,2025-08-15 00:08:35.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 1}",,,benign_background
+DC-B03,4012.0,System,Warning,2025-08-15 12:08:35.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 1}",,,benign_background
+DC-B01,4012.0,System,Warning,2025-08-20 21:03:19.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'backlog', 'partners': 3}",,,
+DC-B02,5014.0,System,Warning,2025-08-20 21:06:17.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 3}",,,
+DC-B02,2213.0,System,Warning,2025-08-20 21:10:33.000000000,DFSR: The DFS Replication service stopped replication on volume due to lack of free space or journal wrap,"{'journal_state': 'healthy', 'partners': 1}",,,
+DC-B01,5014.0,System,Warning,2025-08-20 21:13:45.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'healthy', 'partners': 1}",,,
+DC-B02,5014.0,System,Warning,2025-08-20 21:14:04.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'backlog', 'partners': 3}",,,
+DC-B02,4012.0,System,Warning,2025-08-20 21:15:14.000000000,Netlogon: The domain controller is not advertising,"{'journal_state': 'healthy', 'partners': 1}",,,
+DC-B01,5014.0,System,Error,2025-08-20 21:15:40.000000000,DFSR: Replication group is no longer available,"{'journal_state': 'wrap_detected', 'partners': 2}",,,
+,,,,2025-08-20 21:15:40.000000000,,,unknown,medium,

@@ -1,0 +1,151 @@
+{
+  "events": [
+    {
+      "type": "rf_spike",
+      "center_freq_mhz": 1830.0,
+      "bandwidth_khz": 534.0,
+      "start_utc": "2025-07-29T22:13:00",
+      "end_utc": "2025-07-29T22:17:00",
+      "snr_db": 17.0,
+      "power_dbm": -10.1,
+      "sensor": "SDR-Home-01",
+      "notes": "burst near anchor event; possible trigger"
+    },
+    {
+      "type": "rf_spike",
+      "center_freq_mhz": 2505.0,
+      "bandwidth_khz": 214.0,
+      "start_utc": "2025-08-03T18:38:00",
+      "end_utc": "2025-08-03T18:43:00",
+      "snr_db": 25.7,
+      "power_dbm": -17.6,
+      "sensor": "SDR-Home-01",
+      "notes": "burst near anchor event; possible trigger"
+    },
+    {
+      "type": "rf_spike",
+      "center_freq_mhz": 2118.0,
+      "bandwidth_khz": 353.0,
+      "start_utc": "2025-08-08T01:18:00",
+      "end_utc": "2025-08-08T01:23:00",
+      "snr_db": 13.9,
+      "power_dbm": -17.7,
+      "sensor": "SDR-Home-01",
+      "notes": "burst near anchor event; possible trigger"
+    },
+    {
+      "type": "rf_spike",
+      "center_freq_mhz": 1703.0,
+      "bandwidth_khz": 1158.0,
+      "start_utc": "2025-08-14T10:03:00",
+      "end_utc": "2025-08-14T10:08:00",
+      "snr_db": 24.4,
+      "power_dbm": -18.8,
+      "sensor": "SDR-Home-01",
+      "notes": "burst near anchor event; possible trigger"
+    },
+    {
+      "type": "rf_spike",
+      "center_freq_mhz": 2241.0,
+      "bandwidth_khz": 887.0,
+      "start_utc": "2025-08-20T21:08:00",
+      "end_utc": "2025-08-20T21:13:00",
+      "snr_db": 18.2,
+      "power_dbm": -12.2,
+      "sensor": "SDR-Home-01",
+      "notes": "burst near anchor event; possible trigger"
+    },
+    {
+      "type": "rf_activity",
+      "center_freq_mhz": 4009.0,
+      "bandwidth_khz": 457.0,
+      "start_utc": "2025-08-04T16:11:02",
+      "end_utc": "2025-08-04T16:12:02",
+      "snr_db": 10.9,
+      "power_dbm": -45.1,
+      "sensor": "SDR-Home-01",
+      "notes": "background"
+    },
+    {
+      "type": "rf_activity",
+      "center_freq_mhz": 2514.0,
+      "bandwidth_khz": 1680.0,
+      "start_utc": "2025-08-14T11:58:44",
+      "end_utc": "2025-08-14T11:59:44",
+      "snr_db": 17.8,
+      "power_dbm": -33.3,
+      "sensor": "SDR-Home-01",
+      "notes": "background"
+    },
+    {
+      "type": "rf_activity",
+      "center_freq_mhz": 4746.0,
+      "bandwidth_khz": 1981.0,
+      "start_utc": "2025-08-01T05:05:59",
+      "end_utc": "2025-08-01T05:10:59",
+      "snr_db": 5.1,
+      "power_dbm": -36.6,
+      "sensor": "SDR-Home-01",
+      "notes": "background"
+    },
+    {
+      "type": "rf_activity",
+      "center_freq_mhz": 1995.0,
+      "bandwidth_khz": 206.0,
+      "start_utc": "2025-08-17T21:59:55",
+      "end_utc": "2025-08-17T22:01:55",
+      "snr_db": 14.3,
+      "power_dbm": -37.0,
+      "sensor": "SDR-Home-01",
+      "notes": "background"
+    },
+    {
+      "type": "rf_activity",
+      "center_freq_mhz": 5428.0,
+      "bandwidth_khz": 343.0,
+      "start_utc": "2025-08-08T11:20:38",
+      "end_utc": "2025-08-08T11:23:38",
+      "snr_db": 5.7,
+      "power_dbm": -22.8,
+      "sensor": "SDR-Home-01",
+      "notes": "background"
+    },
+    {
+      "type": "rf_activity",
+      "center_freq_mhz": 3760.0,
+      "bandwidth_khz": 504.0,
+      "start_utc": "2025-08-20T11:00:37",
+      "end_utc": "2025-08-20T11:01:37",
+      "snr_db": 7.4,
+      "power_dbm": -35.3,
+      "sensor": "SDR-Home-01",
+      "notes": "background"
+    },
+    {
+      "type": "rf_spike",
+      "center_freq_mhz": 2502.0,
+      "bandwidth_khz": 659.0,
+      "start_utc": "2025-07-31T01:05:35",
+      "end_utc": "2025-07-31T01:11:35",
+      "snr_db": 13.1,
+      "power_dbm": -23.5,
+      "sensor": "SDR-Home-01",
+      "notes": "decoy_rf_only_null"
+    },
+    {
+      "type": "rf_spike",
+      "center_freq_mhz": 884.0,
+      "bandwidth_khz": 221.0,
+      "start_utc": "2025-08-19T16:13:10",
+      "end_utc": "2025-08-19T16:19:10",
+      "snr_db": 16.9,
+      "power_dbm": -12.9,
+      "sensor": "SDR-Home-01",
+      "notes": "decoy_rf_only_null"
+    }
+  ],
+  "window_utc": {
+    "start": "2025-07-27T00:00:00",
+    "end": "2025-08-21T23:59:59"
+  }
+}
